@@ -1,5 +1,5 @@
 ## By working together the following two functions allow the user
-## to: (1) calculate the inverse of an INVERTABLE 
+## to: (1) calculate the inverse of an INVERTIBLE 
 ## square matrix and (2) retrieve the results of a previously
 ## calculated matrix using the built in cache property 
 ## of the functions.
@@ -17,7 +17,7 @@
         ## stores the results 'x$setsolve(m)' and has as output the freshly calculated inverse square matrix for the user. 
         ## When the second function is used again the first scenario would play out. 
 
-## First function: 'makeCacheMatrix' takes an invertable square matrix and via 
+## First function: 'makeCacheMatrix' takes an invertible square matrix and via 
 ## the first function called 'set' assigns it to 'x'.
 ## The 'makeCacheMatrix' function further contains a set of other functions ('get', 'setsolve', 'getsolve')
 ## which are called by the 'cacheSolve' function based on when an 'if' condition statement is either met or not.
